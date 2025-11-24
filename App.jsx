@@ -24,7 +24,7 @@ function App() {
       <div className="use-state-example">
         <h1>Handling UserInput</h1>
         <h2>Using useState</h2>
-        <label htmlFor="">Name </label>
+        <label>Name </label>
         <input
           type="text"
           value={nameUseState}
@@ -41,7 +41,7 @@ function App() {
       <hr />
 
       <h2>Using Refs</h2>
-      <label htmlFor="">Name </label>
+      <label>Name </label>
       <input type="text" ref={refName} />
       <button onClick={handleRefSubmit}> Submit </button>
       <p>{refRenderName}</p>
